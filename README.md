@@ -6,4 +6,4 @@
 
 2.      cd DebriefMobile
 
-3. run       expo start
+3.      expo start
