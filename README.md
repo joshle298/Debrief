@@ -2,8 +2,8 @@
 
 ## Run DeBrief Mobile (iOS or Android)
 
-Have Expo Go installed on your device
+1. Install Expo Go onto your device
 
-cd DebriefMobile
+2.      cd DebriefMobile
 
-run expo start
+3. run    expo start
