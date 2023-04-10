@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { SafeAreaView, View, TouchableOpacity, StyleSheet, ScrollView, Dimensions } from 'react-native';
+import React, { useState, useRef, useEffect } from 'react';
+import { SafeAreaView, View, TouchableOpacity, StyleSheet, ScrollView, Dimensions, AppState } from 'react-native';
 import Header from './components/Header';
 import SummaryBriefing from './components/SummaryBriefing';
 import LottieView from 'lottie-react-native';
@@ -9,10 +9,11 @@ const TEXT_FONT_SIZE = 16;
 
 const App = () => {
   const [showLottie, setShowLottie] = useState(true);
+  const [appState, setAppState] = useState(AppState.currentState);
   const scrollViewRef = useRef(null);
-  console.log('showLottie:', showLottie);
+  const lottieRef = useRef(null);
+
   const handlePress = () => {
-    console.log('Lottie onPress called');
     setShowLottie(false);
   };
 
@@ -26,26 +27,44 @@ const App = () => {
     }
   };
 
+  const handleAppStateChange = (nextAppState) => {
+    if (nextAppState === 'active' && appState !== 'active') {
+      setAppState(nextAppState);
+      setShowLottie(true);
+      lottieRef.current?.reset();
+      lottieRef.current?.play();
+    } else {
+      setAppState(nextAppState);
+    }
+  };
+
+  useEffect(() => {
+    const appStateSubscription = AppState.addEventListener('change', handleAppStateChange);
+
+    return () => {
+      appStateSubscription.remove();
+    };
+  }, [appState]);
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <Header name={data.name} />
+        {showLottie && (
+          <TouchableOpacity onPress={handlePress} style={styles.lottieContainer}>
+            <LottieView
+              ref={lottieRef}
+              onLayout={() => lottieRef.current?.play()}
+              source={require('./assets/startDebrief.json')}
+              loop
+            />
+          </TouchableOpacity>
+        )}
         {!showLottie && (
           <ScrollView ref={scrollViewRef}>
             <SummaryBriefing text={data.summaryBriefing} onWordRevealed={onWordRevealed} />
           </ScrollView>
         )}
-        {showLottie && (
-          <TouchableOpacity onPress={handlePress} style={styles.lottieContainer}>
-            <LottieView
-              source={require('../DebriefMobile/assets/startDebrief.json')}
-              autoPlay
-              loop
-              style={styles.lottieAnimation}
-            />
-          </TouchableOpacity>
-        )}
-        {/* Add the rest of your app components here */}
       </View>
     </SafeAreaView>
   );
@@ -67,14 +86,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-  },
-  lottieAnimation: {
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height,
-  },
-  text: {
-    fontSize: TEXT_FONT_SIZE,
-    lineHeight: 24,
   },
 });
 
