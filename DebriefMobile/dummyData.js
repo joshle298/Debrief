@@ -1,0 +1,9 @@
+const data = {
+  name: "Joshua",
+  summaryBriefing: `The World Health Organization (WHO) announced today that it has approved the use of the first malaria vaccine, RTS,S/AS01, for children in sub-Saharan Africa. The vaccine has been in development for over 30 years and has been shown to reduce the risk of severe malaria by up to 30%. Malaria kills over 400,000 people each year, the majority of whom are children under the age of 5. This approval is a major milestone in the fight against the disease, which remains a significant public health challenge in many parts of the world.
+  In other news, the United Nations Climate Change Conference, also known as COP26, is set to take place in Glasgow, Scotland in November of this year. The conference will bring together world leaders, scientists, and activists to discuss strategies for reducing greenhouse gas emissions and mitigating the effects of climate change. This year's conference is particularly significant, as it marks the first major climate summit since the COVID-19 pandemic began. Many experts are hoping that the pandemic will serve as a wake-up call to world leaders to take more aggressive action on climate change.
+  Finally, in the world of technology, Apple announced today that it will be launching a new line of laptops with custom-designed processors. The new processors, known as M1X, are expected to be significantly faster than the current models and will allow for improved performance when running demanding applications such as video editing software. Apple has been gradually moving away from Intel processors in favor of its own custom-designed chips, which it says offer better performance and battery life. The new laptops are expected to be released later this year.`,
+  // Add more data here as needed
+};
+
+export default data;

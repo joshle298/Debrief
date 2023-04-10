@@ -38,7 +38,7 @@ const App = () => {
         {showLottie && (
           <TouchableOpacity onPress={handlePress} style={styles.lottieContainer}>
             <LottieView
-              source={require('/Users/baku/Developer/GitHub/DeBrief/DebriefApp/assets/startDebrief.json')}
+              source={require('../DebriefMobile/assets/startDebrief.json')}
               autoPlay
               loop
               style={styles.lottieAnimation}
