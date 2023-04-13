@@ -1,4 +1,4 @@
-# DeBrief
+# Debrief
 
 ## Run DeBrief Mobile (iOS or Android)
 
