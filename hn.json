@@ -82,7 +82,7 @@
     {
         "title": "Shutting down nuclear power could increase air pollution: study",
         "author": "hhs",
-        "points": 79,
+        "points": 86,
         "created_at": "2023-04-10T22:14:14.000Z",
         "link": "https://news.mit.edu/2023/study-shutting-down-nuclear-power-could-increase-air-pollution-0410",
         "id": "35518032"
@@ -314,7 +314,7 @@
     {
         "title": "Al Jaffee, King of the Mad Magazine Fold-In, Dies at 102",
         "author": "coloneltcb",
-        "points": 92,
+        "points": 95,
         "created_at": "2023-04-10T21:30:09.000Z",
         "link": "https://www.nytimes.com/2023/04/10/arts/al-jaffee-dead.html",
         "id": "35517629"
@@ -450,7 +450,7 @@
     {
         "title": "Kids Judge Alexa Smarter Than Roomba, but Say Both Deserve Kindness",
         "author": "geox",
-        "points": 2,
+        "points": 3,
         "created_at": "2023-04-10T21:05:51.000Z",
         "link": "https://today.duke.edu/2023/04/kids-judge-alexa-smarter-roomba-say-both-deserve-kindness",
         "id": "35517407"
@@ -546,7 +546,7 @@
     {
         "title": "Ask HN: How to make cold outbound less like pulling teeth as eng founder?",
         "author": "tawb",
-        "points": 2,
+        "points": 3,
         "created_at": "2023-04-10T20:46:01.000Z",
         "link": null,
         "id": "35517188"
@@ -610,7 +610,7 @@
     {
         "title": "Architects, Anti-Patterns and organizational fuckery",
         "author": "alexzeitler",
-        "points": 3,
+        "points": 4,
         "created_at": "2023-04-10T20:28:34.000Z",
         "link": "https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/",
         "id": "35517005"
@@ -690,7 +690,7 @@
     {
         "title": "The UK business that shipped $1.2B of electronic to Russia",
         "author": "anigbrowl",
-        "points": 2,
+        "points": 3,
         "created_at": "2023-04-10T20:21:13.000Z",
         "link": "https://www.ft.com/content/bdd8c518-bf10-4c9c-b53b-bfbe512e2e92",
         "id": "35516923"
@@ -818,7 +818,7 @@
     {
         "title": "Lawsuit: Tesla must be punished for “tasteless” sharing of car-camera images",
         "author": "m_fayer",
-        "points": 27,
+        "points": 28,
         "created_at": "2023-04-10T19:57:44.000Z",
         "link": "https://arstechnica.com/tech-policy/2023/04/tesla-sued-after-report-that-workers-shared-invasive-images-from-car-cameras/",
         "id": "35516691"
@@ -962,7 +962,7 @@
     {
         "title": "American offices are half-empty. That could be the next big risk for banks",
         "author": "pseudolus",
-        "points": 40,
+        "points": 41,
         "created_at": "2023-04-10T19:22:59.000Z",
         "link": "https://www.cnn.com/2023/04/10/business/commercial-real-estate-banks-offices/index.html",
         "id": "35516267"
@@ -1162,7 +1162,7 @@
     {
         "title": "Keycloak with PostgreSQL on Kubernetes",
         "author": "brakmic",
-        "points": 87,
+        "points": 88,
         "created_at": "2023-04-10T18:48:51.000Z",
         "link": "https://blog.brakmic.com/keycloak-with-postgresql-on-kubernetes/",
         "id": "35515873"
@@ -1794,7 +1794,7 @@
     {
         "title": "Use GitHub Actions to Make Your GitHub Profile Dynamic",
         "author": "mooreds",
-        "points": 95,
+        "points": 96,
         "created_at": "2023-04-10T17:26:19.000Z",
         "link": "https://www.bengreenberg.dev/posts/2023-04-09-github-profile-dynamic-content/",
         "id": "35514799"
@@ -1954,7 +1954,7 @@
     {
         "title": "Ask HN: What is your experience with layoffs?",
         "author": "donnie12345",
-        "points": 26,
+        "points": 27,
         "created_at": "2023-04-10T17:00:28.000Z",
         "link": null,
         "id": "35514464"
@@ -2058,7 +2058,7 @@
     {
         "title": "FTX stored private keys to crypto assets in plaintext, without access controls",
         "author": "danso",
-        "points": 334,
+        "points": 335,
         "created_at": "2023-04-10T16:45:37.000Z",
         "link": "https://twitter.com/molly0xFFF/status/1645217786698903559",
         "id": "35514294"
@@ -2240,6 +2240,22 @@
         "id": "35514130"
     },
     {
+        "title": "Bird Weather",
+        "author": "hyperific",
+        "points": 1,
+        "created_at": "2023-04-10T16:29:36.000Z",
+        "link": "https://app.birdweather.com/",
+        "id": "35514138"
+    },
+    {
+        "title": "Jon Stewart Questions Defense Deputy Secretary on Budget [video][6 Mins]",
+        "author": "LinuxBender",
+        "points": 1,
+        "created_at": "2023-04-10T16:28:51.000Z",
+        "link": "https://www.youtube.com/watch?v=50MusF365U0",
+        "id": "35514130"
+    },
+    {
         "title": "JWST: The new images captured of the universe – 60 Minutes",
         "author": "tambourine_man",
         "points": 1,
@@ -2282,7 +2298,7 @@
     {
         "title": "Problems with AWS Amplify and its use of DynamoDB",
         "author": "kevinslin",
-        "points": 129,
+        "points": 130,
         "created_at": "2023-04-10T16:15:35.000Z",
         "link": "https://samthor.au/2023/aws-amplify-is-a-grift/",
         "id": "35514002"
@@ -2382,22 +2398,6 @@
         "created_at": "2023-04-10T16:02:19.000Z",
         "link": "https://www.jefftk.com/p/outrage-and-statistics-into-policy",
         "id": "35513863"
-    },
-    {
-        "title": "Twitter Circle tweets are not that private anymore",
-        "author": "danso",
-        "points": 38,
-        "created_at": "2023-04-10T16:01:36.000Z",
-        "link": "https://techcrunch.com/2023/04/10/twitter-circle-bug-not-private/",
-        "id": "35513857"
-    },
-    {
-        "title": "Most people thinking about suicide don’t tell anyone",
-        "author": "headalgorithm",
-        "points": 17,
-        "created_at": "2023-04-10T16:01:21.000Z",
-        "link": "https://theconversation.com/most-people-thinking-about-suicide-dont-tell-anyone-heres-why-and-what-we-can-do-about-it-197402",
-        "id": "35513855"
     },
     {
         "title": "P < 0.05 Considered Harmful",
@@ -2720,6 +2720,22 @@
         "id": "35513570"
     },
     {
+        "title": "With LLMs, Researchers create Generative agents that interact with each other",
+        "author": "og_kalu",
+        "points": 4,
+        "created_at": "2023-04-10T15:35:05.000Z",
+        "link": "https://twitter.com/nonmayorpete/status/1645355224029356032",
+        "id": "35513576"
+    },
+    {
+        "title": "Free ChatGPT for Sutdents – Brain Buddy",
+        "author": "galgia",
+        "points": 2,
+        "created_at": "2023-04-10T15:34:47.000Z",
+        "link": "https://brain-buddy.com/",
+        "id": "35513570"
+    },
+    {
         "title": "A Day in the Metaverse",
         "author": "belter",
         "points": 1,
@@ -2862,22 +2878,6 @@
         "created_at": "2023-04-10T15:15:48.000Z",
         "link": "https://github.com/samber/slog-multi",
         "id": "35513326"
-    },
-    {
-        "title": "Gareth’s Tips and Tools Newsletter",
-        "author": "sbolt",
-        "points": 1,
-        "created_at": "2023-04-10T15:12:51.000Z",
-        "link": "https://garstipsandtools.com/",
-        "id": "35513296"
-    },
-    {
-        "title": "Overconfidence, and Executives as Personality Defect",
-        "author": "davidgerard",
-        "points": 3,
-        "created_at": "2023-04-10T15:12:23.000Z",
-        "link": "https://ludic.mataroa.blog/blog/overconfidence-executives-as-personality-defect/",
-        "id": "35513288"
     },
     {
         "title": "My Love/Hate Relationship with Cloud Custodian",
@@ -3200,6 +3200,22 @@
         "id": "35512752"
     },
     {
+        "title": "Plane: Open-Source Jira, Linear and Height Alternative",
+        "author": "thunderbong",
+        "points": 2,
+        "created_at": "2023-04-10T14:30:22.000Z",
+        "link": "https://github.com/makeplane/plane",
+        "id": "35512780"
+    },
+    {
+        "title": "Database Edge Latency on Vercel",
+        "author": "charlieirish",
+        "points": 5,
+        "created_at": "2023-04-10T14:28:36.000Z",
+        "link": "https://edge-data-latency.vercel.app/",
+        "id": "35512752"
+    },
+    {
         "title": "CookNovels- Long stories before a recipe taken to 11",
         "author": "JohnHendrix",
         "points": 1,
@@ -3258,7 +3274,7 @@
     {
         "title": "Backup files quick with Bash's brace expansion",
         "author": "granddave",
-        "points": 2,
+        "points": 3,
         "created_at": "2023-04-10T14:22:30.000Z",
         "link": "https://davidisaksson.dev/posts/brace-expansion/",
         "id": "35512673"
@@ -3322,7 +3338,7 @@
     {
         "title": "Show HN: The HN Recap – A daily podcast that recaps the top HN posts of the day",
         "author": "diminikolaou",
-        "points": 16,
+        "points": 17,
         "created_at": "2023-04-10T14:19:36.000Z",
         "link": "https://hackernewsrecap.buzzsprout.com/2170103/12620404-hacker-news-recap-april-9th-2023?t=0",
         "id": "35512619"
@@ -3342,22 +3358,6 @@
         "created_at": "2023-04-10T14:16:49.000Z",
         "link": "https://github.com/stallionlabs/summarizer-app",
         "id": "35512586"
-    },
-    {
-        "title": "Gun deaths among children are soaring",
-        "author": "jb1991",
-        "points": 4,
-        "created_at": "2023-04-10T14:16:47.000Z",
-        "link": "https://www.axios.com/2023/04/10/gun-deaths-among-children-are-soaring",
-        "id": "35512585"
-    },
-    {
-        "title": "A Brief History of Web Maps",
-        "author": "akbarnama",
-        "points": 2,
-        "created_at": "2023-04-10T14:15:29.000Z",
-        "link": "https://forrest.nyc/a-brief-history-of-web-maps/",
-        "id": "35512561"
     },
     {
         "title": "Anyone using V Programming Language?",
@@ -3520,6 +3520,22 @@
         "id": "35512338"
     },
     {
+        "title": "Show HN: Tlk – A free, open-source video calling app for the web",
+        "author": "vasanthv",
+        "points": 2,
+        "created_at": "2023-04-10T13:56:47.000Z",
+        "link": "https://tlk.li",
+        "id": "35512347"
+    },
+    {
+        "title": "Ask HN: Open source LLM for commercial use?",
+        "author": "LewisDavidson",
+        "points": 129,
+        "created_at": "2023-04-10T13:55:53.000Z",
+        "link": null,
+        "id": "35512338"
+    },
+    {
         "title": "Feature flags and authorization abstract the same concept",
         "author": "zdw",
         "points": 17,
@@ -3602,7 +3618,7 @@
     {
         "title": "Dalai Lama apologizes after video asking child to ‘suck’ his tongue",
         "author": "okasaki",
-        "points": 20,
+        "points": 21,
         "created_at": "2023-04-10T13:37:57.000Z",
         "link": "https://www.cnn.com/2023/04/10/india/dalai-lama-apology-kissing-boy-video-intl-hnk/index.html",
         "id": "35512113"
@@ -3898,7 +3914,7 @@
     {
         "title": "American IQ scores have rapidly dropped, proving the 'Reverse Flynn effect'",
         "author": "hirundo",
-        "points": 85,
+        "points": 88,
         "created_at": "2023-04-10T13:00:44.000Z",
         "link": "https://www.popularmechanics.com/science/a43469569/american-iq-scores-decline-reverse-flynn-effect/",
         "id": "35511744"
@@ -3914,7 +3930,7 @@
     {
         "title": "How To Get Started In Soldering",
         "author": "evo_9",
-        "points": 243,
+        "points": 244,
         "created_at": "2023-04-10T12:58:25.000Z",
         "link": "https://www.popularmechanics.com/technology/a43400768/how-to-get-started-in-soldering/",
         "id": "35511717"
@@ -3922,7 +3938,7 @@
     {
         "title": "Microsoft fixes 5-year-old Defender bug, reducing Firefox-related CPU use by 75%",
         "author": "ylere",
-        "points": 791,
+        "points": 800,
         "created_at": "2023-04-10T12:58:07.000Z",
         "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1441918",
         "id": "35511713"
@@ -3962,7 +3978,7 @@
     {
         "title": "Software Forge Performance Index",
         "author": "mroche",
-        "points": 19,
+        "points": 20,
         "created_at": "2023-04-10T12:51:13.000Z",
         "link": "https://forgeperf.org/",
         "id": "35511653"
@@ -3982,22 +3998,6 @@
         "created_at": "2023-04-10T12:47:02.000Z",
         "link": "https://nypost.com/2023/04/07/inside-the-woke-scoring-system-guiding-american-companies/",
         "id": "35511624"
-    },
-    {
-        "title": "Rare corn can self-fertilise [video]",
-        "author": "dsalaj",
-        "points": 46,
-        "created_at": "2023-04-10T12:46:40.000Z",
-        "link": "https://www.youtube.com/watch?v=CFyd-kC6IUw",
-        "id": "35511621"
-    },
-    {
-        "title": "Online Ads Are Serving Us Lousy, Overpriced Goods",
-        "author": "donohoe",
-        "points": 2,
-        "created_at": "2023-04-10T12:46:25.000Z",
-        "link": "https://www.nytimes.com/2023/04/06/opinion/online-advertising-privacy-data-surveillance-consumer-quality.html",
-        "id": "35511618"
     },
     {
         "title": "Springtime for Process Managers",
@@ -4160,6 +4160,22 @@
         "id": "35511457"
     },
     {
+        "title": "Acceleration of U.S. Southeast and Gulf sea-level rise amplified climate variab",
+        "author": "ianai",
+        "points": 1,
+        "created_at": "2023-04-10T12:25:45.000Z",
+        "link": "https://www.nature.com/articles/s41467-023-37649-9",
+        "id": "35511459"
+    },
+    {
+        "title": "Ask HN: How to stay interested in my current job while I work on a side startup?",
+        "author": "websitescenes",
+        "points": 3,
+        "created_at": "2023-04-10T12:25:28.000Z",
+        "link": null,
+        "id": "35511457"
+    },
+    {
         "title": "AI could disrupt video-gaming",
         "author": "frereubu",
         "points": 3,
@@ -4290,7 +4306,7 @@
     {
         "title": "The SaaS Playbook",
         "author": "password4321",
-        "points": 26,
+        "points": 27,
         "created_at": "2023-04-10T11:52:09.000Z",
         "link": "https://www.kickstarter.com/projects/robwalling/the-saas-playbook-by-rob-walling",
         "id": "35511269"
@@ -4302,22 +4318,6 @@
         "created_at": "2023-04-10T11:47:01.000Z",
         "link": "https://bytes.zone/posts/modeling-git-internals-in-alloy-part-2-commits-and-tags/",
         "id": "35511240"
-    },
-    {
-        "title": "Vito Corleone’s Favorite Tool to Build Influence",
-        "author": "fronterablog",
-        "points": 1,
-        "created_at": "2023-04-10T11:46:24.000Z",
-        "link": "https://fronterablog.com/the-law-of-reciprocity/",
-        "id": "35511234"
-    },
-    {
-        "title": "Lessons from a Cold War bunker to survive the end of the world",
-        "author": "georgecmu",
-        "points": 1,
-        "created_at": "2023-04-10T11:43:37.000Z",
-        "link": "https://english.elpais.com/culture/2023-04-09/lessons-from-a-cold-war-bunker-to-survive-the-end-of-the-world.html",
-        "id": "35511226"
     },
     {
         "title": "Show HN: TurboPilot: Copilot clone runs code completion LLM on your CPU",
@@ -4434,7 +4434,7 @@
     {
         "title": "Dashcam footage shows driverless cars clogging San Francisco",
         "author": "gorbachev",
-        "points": 177,
+        "points": 178,
         "created_at": "2023-04-10T11:11:29.000Z",
         "link": "https://www.wired.com/story/dashcam-footage-shows-driverless-cars-cruise-waymo-clogging-san-francisco/",
         "id": "35511052"
@@ -4640,6 +4640,22 @@
         "id": "35510791"
     },
     {
+        "title": "Are We <Thing> Yet?",
+        "author": "xeonmc",
+        "points": 77,
+        "created_at": "2023-04-10T10:24:31.000Z",
+        "link": "https://wiki.mozilla.org/Areweyet",
+        "id": "35510800"
+    },
+    {
+        "title": "Ask HN: Have You Tried Parabiosis?",
+        "author": "roschdal",
+        "points": 2,
+        "created_at": "2023-04-10T10:21:59.000Z",
+        "link": null,
+        "id": "35510791"
+    },
+    {
         "title": "Web of the People",
         "author": "erlend_sh",
         "points": 6,
@@ -4784,22 +4800,6 @@
         "id": "35510576"
     },
     {
-        "title": "Ask HN: Shortcut for Commands",
-        "author": "hmontazeri",
-        "points": 2,
-        "created_at": "2023-04-10T09:24:30.000Z",
-        "link": null,
-        "id": "35510544"
-    },
-    {
-        "title": "Online 8086 Emulator",
-        "author": "nhatcher",
-        "points": 46,
-        "created_at": "2023-04-10T09:20:22.000Z",
-        "link": "https://yjdoc2.github.io/8086-emulator-web/",
-        "id": "35510524"
-    },
-    {
         "title": "$5k MRR as a solo developer",
         "author": "raunometsa",
         "points": 22,
@@ -4810,7 +4810,7 @@
     {
         "title": "Personal Concierge Using OpenAI's ChatGPT via Telegram and Voice Messages",
         "author": "rwilinski",
-        "points": 208,
+        "points": 209,
         "created_at": "2023-04-10T09:19:13.000Z",
         "link": "https://github.com/RafalWilinski/telegram-chatgpt-concierge-bot",
         "id": "35510516"
@@ -4834,7 +4834,7 @@
     {
         "title": "Hacker News Ranking Algorithm",
         "author": "vignesh_warar",
-        "points": 166,
+        "points": 167,
         "created_at": "2023-04-10T08:55:22.000Z",
         "link": "https://vigneshwarar.substack.com/p/hackernews-ranking-algorithm-how",
         "id": "35510413"
@@ -5102,6 +5102,22 @@
         "created_at": "2023-04-10T07:06:47.000Z",
         "link": "https://www.forbes.com/sites/emmawoollacott/2023/04/05/germany-threatens-twitter-with-50m-fine-for-failing-to-tackle-illegal-content/",
         "id": "35509872"
+    },
+    {
+        "title": "Arvin – Your AI Content Generator",
+        "author": "Qing099",
+        "points": 2,
+        "created_at": "2023-04-10T07:06:26.000Z",
+        "link": "https://tryarvin.com/",
+        "id": "35509870"
+    },
+    {
+        "title": "How do so many talentless people end up getting funded and running startups?",
+        "author": "epicureanideal",
+        "points": 32,
+        "created_at": "2023-04-10T06:44:58.000Z",
+        "link": null,
+        "id": "35509765"
     },
     {
         "title": "Arvin – Your AI Content Generator",
@@ -5582,22 +5598,6 @@
         "created_at": "2023-04-10T03:36:03.000Z",
         "link": "https://carlostrujillojs.com/7-things-i-wish-i-knew-when-i-applied-for-my-first-developer-job",
         "id": "35508932"
-    },
-    {
-        "title": "Wipe or Wash? Toilet Paper or Water?",
-        "author": "giuliomagnifico",
-        "points": 3,
-        "created_at": "2023-04-10T03:35:33.000Z",
-        "link": "https://toilet-guru.com/wipe-or-wash.html",
-        "id": "35508930"
-    },
-    {
-        "title": "No rules: Illegal cabins with million-dollar views of Portland",
-        "author": "zw123456",
-        "points": 15,
-        "created_at": "2023-04-10T03:34:00.000Z",
-        "link": "https://www.koin.com/news/portland/portland-homeless-cabins-with-million-dollar-views/",
-        "id": "35508922"
     },
     {
         "title": "Operation Peter Pan",
@@ -6240,6 +6240,22 @@
         "id": "35507572"
     },
     {
+        "title": "Why Does Sulforaphane Cure Autism Symptoms? [video][9 Mins]",
+        "author": "LinuxBender",
+        "points": 2,
+        "created_at": "2023-04-09T23:41:34.000Z",
+        "link": "https://www.youtube.com/watch?v=coYJF0DIt0Q",
+        "id": "35507573"
+    },
+    {
+        "title": "Running Open Source LLMs Locally",
+        "author": "RichardoC",
+        "points": 4,
+        "created_at": "2023-04-09T23:41:29.000Z",
+        "link": "https://tales.fromprod.com/2023/099/getting-started-with-llms-locally.html",
+        "id": "35507572"
+    },
+    {
         "title": "ArmorPaint and ArmorLab: open-source alternative to Adobe Substance",
         "author": "lastdong",
         "points": 164,
@@ -6310,13 +6326,5 @@
         "created_at": "2023-04-09T23:21:16.000Z",
         "link": "https://www.youtube.com/watch?v=kZ9ntfjytTI",
         "id": "35507433"
-    },
-    {
-        "title": "If you design your roof right you might never have to do any cooling at all",
-        "author": "lxm",
-        "points": 4,
-        "created_at": "2023-04-09T23:13:37.000Z",
-        "link": "https://bramcohen.substack.com/p/free-cooling",
-        "id": "35507390"
     }
 ]

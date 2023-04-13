@@ -19,6 +19,10 @@ const Header = ({ name }) => {
       <View style={styles.textContainer}>
         <Text style={styles.greetingText}>{greeting}</Text>
         <Text style={styles.nameText}>{name}</Text>
+        <View style={styles.statusContainer}>
+        <View style={styles.statusDot} />
+        <Text style={styles.statusText}>Your Debrief is ready</Text>
+      </View>
       </View>
       <View style={styles.profilePictureContainer}>
         <ProfilePicture source={require('../assets/josh.jpg')} />
@@ -47,11 +51,29 @@ const styles = StyleSheet.create({
   },
   nameText: {
     fontSize: 24,
-    color: "#999", // Set the color for the name text
+    color: "#999",
+    paddingBottom: 5 // Set the color for the name text
   },
   profilePictureContainer: {
     zIndex: 1,
   },
+  statusContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 5,
+  },
+  statusDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    backgroundColor: 'green',
+    marginRight: 5,
+  },
+  statusText: {
+    fontSize: 14,
+    color: 'green',
+  },
+  
 });
 
 export default Header;
