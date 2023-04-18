@@ -1,5 +1,6 @@
 import requests
 import time
+import json
 
 # define function to get posts from a page
 def get_posts_from_page(page_num):
@@ -36,6 +37,10 @@ def get_all_posts():
 # get all posts from the last 24 hours
 all_posts = get_all_posts()
 
-# print the results
+# Save the results to a JSON file
+with open('hn.json', 'w', encoding='utf-8') as f:
+    json.dump(all_posts, f, ensure_ascii=False, indent=4)
+
+# Print the results
 for post in all_posts:
     print(post)

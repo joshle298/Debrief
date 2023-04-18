@@ -76,11 +76,32 @@ const App = () => {
     };
   }, [appState]);
 
+  SUMMARY_API_URL = "http://192.168.0.233:5000/summary";
+
+  const fetchSummary = async (persona) => {
+    try {
+      const response = await fetch(SUMMARY_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ persona: persona })
+      });
+      const data = await response.json();
+      setText(data.summary);
+    } catch (error) {
+      console.error("Error fetching summary:", error);
+    }
+  };
+  
+
+  // Add a new state variable 'text' to the App component, initialized to an empty string:
+  const [text, setText] = useState("");
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         {showHeader && <Header name={data.name} />}
-        {/* <Header name={data.name} /> */}
         <Modal
           animationType="slide"
           transparent={false}
@@ -93,25 +114,25 @@ const App = () => {
             <TextInput
               style={[
                 styles.input,
-                inputFocused && { borderBottomColor: "#8DBAE2" }, // Change borderBottomColor when focused
+                inputFocused && { borderBottomColor: "#8DBAE2" },
               ]}
               placeholder="Type your persona here"
               onChangeText={(text) => setUserText(text)}
-              onFocus={() => setInputFocused(true)} // Set inputFocused to true when TextInput is focused
-              onBlur={() => setInputFocused(false)} // Set inputFocused to false when TextInput is blurred
+              onFocus={() => setInputFocused(true)}
+              onBlur={() => setInputFocused(false)}
             />
             <TouchableOpacity
-              onPress={() => { //THIS IS WHERE API IS CALLED
-                // USERTEXT IS WHERE PERSONA IS STORED
-                console.log(userText); // Log the user text when the next button is pressed
+              onPress={async () => {
+                console.log(userText);
                 setModalVisible(!modalVisible);
                 setShowSecondLottie(true);
                 setShowFirstLottie(false);
+                await fetchSummary(userText);
                 setTimeout(() => {
                   setShowSecondLottie(false);
                   setShowFirstLottie(true);
                   setShowHeader(true);
-                }, 10000); // THIS IS WHERE YOU CHANGE THE LOADING TIME
+                }, 10000);
               }}
             >
               <Icon
@@ -133,7 +154,6 @@ const App = () => {
             />
           </TouchableOpacity>
         )}
-
         {showFirstLottie && (
           <TouchableOpacity
             onPress={handlePress}
@@ -150,7 +170,7 @@ const App = () => {
         {showText && (
           <ScrollView ref={scrollViewRef}>
             <SummaryBriefing
-              text={data.summaryBriefing}
+              text={text}
               onWordRevealed={onWordRevealed}
             />
           </ScrollView>
