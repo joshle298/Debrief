@@ -25,6 +25,7 @@ Generated over **88,000 impressions** on the [Debrief Announcement Tweet](https:
 ## 💻 Run DeBrief's Backend
 1. Scraping services (Reddit, Twitter, RSS feeds, etc.)
    - run specific web scrapers via .py files within the 'scrapers' directory, output is .json files--_Note that as of June, many services have begun to crack down on web scraping (Reddit & Twitter), making the current program incompatible with them_
+2. Create .env file with your own OpenAI API Key & Atlas Nomic API key
 2. run `python embed_posts.py` or `python3 embed_posts.py`
 3. run `python extract_posts.py` or `python3 extract_posts.py`
 4. run `python api.py` or `python3 api.py` to begin running the service locally
