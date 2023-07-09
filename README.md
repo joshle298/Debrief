@@ -22,7 +22,7 @@ Generated over **88,000 impressions** on the [Debrief Announcement Tweet](https:
 - Conversational feature (allow users to have a conversation with Ai on questions that may arise during a debrief)
 - Optimize OpenAi API call costs
 
-## 💻 Run DeBrief's Backend
+## 🌐 Run DeBrief's Backend
 1. Scraping services (Reddit, Twitter, RSS feeds, etc.)
    - run specific web scrapers via .py files within the 'scrapers' directory, output is .json files--_Note that as of June, many services have begun to crack down on web scraping (Reddit & Twitter), making the current program incompatible with them_
 2. Create .env file with your own OpenAI API Key & Atlas Nomic API key
