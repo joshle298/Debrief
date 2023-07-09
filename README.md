@@ -20,12 +20,18 @@ Generated over 88,000 impressions on the [Debrief Announcement Tweet](https://tw
 - Retrieve the 4 most relevant articles for each debrief and link them via photos
 - Podcast form (ElevenLabs Ai text to voice)
 - Conversational feature (allow users to have a conversation with Ai on questions that may arise during a debrief)
+- Optimize OpenAi API call costs
+
+## 💻 Run DeBrief's Backend
+1. Scraping services (Reddit, Twitter, RSS feeds, etc.)
+   - run specific web scrapers via .py files within the 'scrapers' directory, output is .json files--_Note that as of June, many services have begun to crack down on web scraping (Reddit & Twitter), making the current program incompatible with them_
+2. run `python embed_posts.py` or `python3 embed_posts.py`
+3. run `python extract_posts.py` or `python3 extract_posts.py`
+4. run `python api.py` or `python3 api.py` to begin running the service locally
+5. Follow the mobile section below to continue with running locally
 
 ## 📱 Run DeBrief Mobile (iOS or Android)
 
 1. Install Expo Go onto your device
 2.      cd DebriefMobile
 3.      expo start
-
-## 💻 Run DeBrief's Backend
-1. 
