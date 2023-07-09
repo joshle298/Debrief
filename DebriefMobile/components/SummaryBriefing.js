@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { View, Text, Animated, StyleSheet } from "react-native";
 
 const SummaryBriefing = ({ text, onWordRevealed }) => {
+  console.log(text)
   const words = text.split(" ");
   const animatedValues = words.map(() => new Animated.Value(0));
 

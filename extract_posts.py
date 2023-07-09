@@ -7,12 +7,9 @@ import json
 import requests
 import bs4
 import argparse
-
-
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate, ChatPromptTemplate
 from langchain.chains import LLMChain
-
 from langchain.prompts import (
     ChatPromptTemplate,
     PromptTemplate,
@@ -22,19 +19,14 @@ from langchain.prompts import (
 )
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 
-ATLAS_TEST_API_KEY = "Gqpc4gaUpPCh45uGQcCxoBtMiNfTjRMr0V-yIsYnhvC_0"
 project_name = "headline_data_3"
 
-login(ATLAS_TEST_API_KEY)
+login(os.getenv("ATLAS_TEST_API_KEY"))
 
 
 def run_with_truncated_input(chain, headline, preference_string, max_length=100):
     truncated_headline = headline[:max_length]
     return chain.run(headline=truncated_headline, preference_string=preference_string)
-
-# ...
-
-
 
 def get_summary(persona):
     
@@ -57,7 +49,7 @@ def get_summary(persona):
 
     headlines = atlas.get_data(ids)
 
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_KEY")
 
     llm = OpenAI(temperature=0.9)
 
