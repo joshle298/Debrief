@@ -27,5 +27,5 @@ Generated over 88,000 impressions on the [Debrief Announcement Tweet](https://tw
 2.      cd DebriefMobile
 3.      expo start
 
-## 💻 Run DeBrief Backend
+## 💻 Run DeBrief's Backend
 1. 
