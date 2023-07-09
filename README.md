@@ -9,7 +9,7 @@ https://github.com/joshle298/Debrief/assets/59464508/9a19f808-3ce8-46e1-ae1f-c39
 <img width="986" alt="Screenshot 2023-07-09 at 3 52 56 PM" src="https://github.com/joshle298/Debrief/assets/59464508/8907c612-c558-4f64-b3fc-89f15f9a1433">
 
 ## :chart_with_upwards_trend: Interest
-Generated over 88,000 impressions on the [Debrief Announcement Tweet](https://twitter.com/minafahmi_/status/1642899127427125254?s=46&t=FEAelgSnjY-y4meDl6F6Xg) with a conversion of 100+ waitlist signups.
+Generated over **88,000 impressions** on the [Debrief Announcement Tweet](https://twitter.com/minafahmi_/status/1642899127427125254?s=46&t=FEAelgSnjY-y4meDl6F6Xg) with a conversion of **100+ waitlist signups**.
 
 ## :door: Opportunity
 - As a consumer-facing product: DeBrief crafts a unique media consumption experience for each user, tailoring the influx of news to cater specifically to their preferences. Unlike traditional news platforms that often suffer from topic repetition, DeBrief ensures a diverse and continuously refreshing array of information that aligns with the user's evolving interests (daily). This approach ensures users are exposed only to relevant and varied articles and information, enhancing their overall reading experience and saving them from the monotony of redundancy often prevalent in most news services today.
