@@ -77,7 +77,7 @@ const App = () => {
   }, [appState]);
 
   // this should be changed according to your system
-  SUMMARY_API_URL = "http://192.168.1.91:5000/summary";
+  SUMMARY_API_URL = "http://10.101.1.132:5000/summary";
 
   const fetchSummary = async (persona) => {
     try {

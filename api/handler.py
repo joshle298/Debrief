@@ -6,11 +6,12 @@ import nomic
 from langchain.chat_models import ChatOpenAI
 from langchain.vectorstores import AtlasDB
 from langchain.embeddings.openai import OpenAIEmbeddings
-
+import dotenv
+dotenv.load_dotenv()
 
 s3_client = boto3.client('s3')
 
-ATLAS_TOKEN = "soH2CVoStCGvI5wW4vSVRFszgpPgImpnuHfiWewTBce_H"
+ATLAS_TOKEN = os.getenv("ATLAS_TEST_API_KEY")
 
 def handler(event, context):
 
