@@ -111,7 +111,7 @@ def get_summary(persona):
 
     relevant_headlines = parallelize_function(headlines)
 
-    print(len(relevant_headlines))
+    print("# of relevant articles:", len(relevant_headlines))
 
     # save relevant headlines to json
     with open("relevant_headlines.json", "w") as f:
@@ -200,7 +200,7 @@ def get_summary(persona):
 
 def main():
     # get the persona from the command line
-    persona = input("Please enter a string describing the individual's stated preferences: ")
+    persona = input("Please enter your reader's persona: ")
 
     # uncomment to connect to Flask to connect with mobile app
     # parser = argparse.ArgumentParser(description="Get a summary based on a persona.")
