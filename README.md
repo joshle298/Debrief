@@ -18,9 +18,9 @@ Generated over **88,000 impressions** on the [Debrief Announcement Tweet](https:
 ## 🛠️ Todo
 - Design and implement methods to collect user preferences (voting mechanism, browsing context, article feeds, etc.)
 - Retrieve the 4 most relevant articles for each debrief and link them via photos
-- Podcast form (ElevenLabs Ai text to voice)
-- Conversational feature (allow users to have a conversation with Ai on questions that may arise during a debrief)
-- Optimize OpenAi API call costs
+- Podcast form (ElevenLabs AI text to voice)
+- Conversational feature (allow users to have a conversation with AI on questions that may arise during a debrief)
+- Optimize OpenAI API call costs
 
 ## 🌐 Run DeBrief's Backend
 1. Scraping services (Reddit, Twitter, RSS feeds, etc.)
