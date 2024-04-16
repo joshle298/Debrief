@@ -2,10 +2,13 @@
 ## :world_map: Overview
 DeBrief, is a news insight synthesizer designed to cut the noise out of media consumption. We use LLMs and Embedded Mappings to map media hosted on multiple platforms (Twitter, RSS, Reddit, etc). By monitoring clusters and user preferences, the program summarizes what is relevant and delivers it in succinct terms. This solves the pain point many encounter of constantly scrolling through media to find the portions relevant to readers.
 
-### Demo
+### 📱 Demo (Mobile)
 https://github.com/joshle298/Debrief/assets/59464508/9a19f808-3ce8-46e1-ae1f-c394e8101f2a
 
-### DFD (Data Flow Diagram)
+### 📊 Text Embedding Map
+https://github.com/joshle298/Debrief/assets/59464508/073cddd2-3f2e-4b9c-96f5-e0f7b67b784b
+
+### ✏️ DFD (Data Flow Diagram)
 <img width="986" alt="Screenshot 2023-07-09 at 3 52 56 PM" src="https://github.com/joshle298/Debrief/assets/59464508/8907c612-c558-4f64-b3fc-89f15f9a1433">
 
 ## :chart_with_upwards_trend: Interest
@@ -32,8 +35,8 @@ Generated over **88,000 impressions** on the [Debrief Announcement Tweet](https:
 4. run `python api.py` or `python3 api.py` to begin running the service locally _(for connection with mobile app)_
 5. Follow the mobile section below to continue with running the mobile app locally
 
-## 📱 Run DeBrief Mobile (iOS or Android)
+## 💻 Run DeBrief Mobile (iOS or Android)
 
 1. Install Expo Go onto your device
 2.      cd DebriefMobile
-3.      expo start
+3.      `expo start`
