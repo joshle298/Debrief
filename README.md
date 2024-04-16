@@ -1,6 +1,6 @@
 # Debrief
 ## :world_map: Overview
-DeBrief, is a news insight synthesizer designed to cut the noise out of media consumption. We use LLMs and Embedded Mappings to map media hosted on multiple platforms (Twitter, RSS, Reddit, etc). By monitoring clusters and user preferences, the program summarizes what is relevant and delivers it in succinct terms. This solves the pain point many encounter of constantly scrolling through media to find the portions relevant to readers.
+DeBrief, is an AI-powered news insight synthesizer designed to cut the noise out of media consumption. We use LLMs (OpenAI's API) and Embedded Mappings to map media hosted on multiple platforms (Twitter, RSS, Reddit, etc). By monitoring clusters and user preferences, the program summarizes what is relevant and delivers it in succinct terms. This solves the pain point many encounter of constantly scrolling through media to find the portions relevant to readers.
 
 ### 📱 Demo (Mobile)
 https://github.com/joshle298/Debrief/assets/59464508/9a19f808-3ce8-46e1-ae1f-c394e8101f2a
